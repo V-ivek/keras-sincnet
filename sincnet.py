@@ -39,7 +39,7 @@ class LayerNorm(Layer):
 
 def debug_print(*objects):
     if debug:
-        print(*objects)
+        print(objects)
 
 
 class SincConv1D(Layer):
